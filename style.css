@@ -317,8 +317,10 @@ text-transform: uppercase;
 
 .time span {
 font-size:10px;
-color:black;
+font-weight:500;
+color:rgb(22, 22, 22);
 text-transform: none;
+margin-left:10px;
 }
 
 .sidebar {
