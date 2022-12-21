@@ -193,7 +193,7 @@ border-radius: 16px;
 }
 
 .bottom {
-margin-left: 10px;
+padding:0 5px;
 }
 
 .bottom span {
@@ -206,6 +206,7 @@ margin-left: 0px;
 margin-top: 4px;
 display: flex;
 justify-content: space-between;
+padding: 0 5px;
 }
 
 .interact ion-icon {
@@ -236,6 +237,7 @@ font-size:14px;
 display: flex;
 margin-top: 10px;
 align-items: center;
+padding: 0 6px;
 }
 
 p {
@@ -254,12 +256,11 @@ border-radius: 10px;
 .desc {
 display: flex;
 margin-top: 10px;
-margin-left:5px;
+padding-left:4px;
 }
 
 .see-all {
-margin-top: 10px;
-margin-left:5px;
+padding:10px 0 0 4px;
 } 
 
 .see-all p {
@@ -272,8 +273,7 @@ display: flex;
 margin-top: 8px;
 align-items: center;
 justify-content: space-between;
-margin-right: 10px;
-margin-left: 5px;
+padding: 0 4px;
 }
 
 .add-a-reply {
@@ -282,14 +282,13 @@ width:100%;
 display: flex;
 align-items:center;
 border-top:1px solid rgb(213, 213, 213);
-margin-right:8px;
-padding:5px 0;
+padding:5px 4px;
 }
 
 .add-a-reply input {
 margin-left: 4px;
 text-align: start;
-width:85%;
+width:90%;
 border:none;
 background-color:white;
 }
@@ -299,6 +298,7 @@ background: none;
 color: #b2dffc;
 border: none;
 transition-duration: 300ms;
+padding-left:5px;
 }
 
 .btn:hover {
@@ -306,8 +306,7 @@ color: #0095f6;
 }
 
 .time {
-margin-top: 10px;
-margin-left: 5px;
+padding: 10px 0 0 4px;
 }
 
 .time p {
