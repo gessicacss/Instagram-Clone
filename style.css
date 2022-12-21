@@ -122,6 +122,7 @@ line-height: 14px;
 margin-top: 2px;
 overflow: hidden;
 text-overflow: ellipsis;
+margin-left:3px;
 }
 
 .stories img {
@@ -175,10 +176,14 @@ display: flex;
 align-items: center;
 }
 
-.account p {
+.account a {
 font-weight: 500;
 font-size: 14px;
-margin-left: 10px;
+}
+
+.account a:nth-child(2) {
+    margin-left: 10px;
+    line-height: 16px;
 }
 
 .top img {
@@ -249,6 +254,7 @@ border-radius: 10px;
 .desc {
 display: flex;
 margin-top: 10px;
+margin-left:5px;
 }
 
 .see-all {
@@ -365,6 +371,7 @@ justify-content: space-between;
 }
 
 .for-you p {
+margin-left:0;
 font-size: 12px;
 font-weight: 500;
 color: #8e8e8e;
@@ -442,13 +449,14 @@ font-weight: 400;
 line-height: 13px;
 color: #c7c7c7;
 margin-top: 20px;
+margin-left:0;
 }
 
 .bottom-menu {
 display: none;
 }
 
-@media (max-width: 935px) {
+@media (max-width: 934px) {
 .sidebar {
 display: none;
 }
@@ -457,7 +465,7 @@ padding: 0 20px;
 }
 }
 
-@media (max-width: 614px) {
+@media (max-width: 613px) {
 .menu,
 .menu div,
 .container,
