@@ -253,6 +253,7 @@ margin-top: 10px;
 
 .see-all {
 margin-top: 10px;
+margin-left:5px;
 } 
 
 .see-all p {
@@ -266,7 +267,7 @@ margin-top: 8px;
 align-items: center;
 justify-content: space-between;
 margin-right: 10px;
-margin-left: 3px;
+margin-left: 5px;
 }
 
 .add-a-reply {
