@@ -140,6 +140,7 @@ font-size:30px;
 /*border-radius: 50%;
 box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.831);*/
 filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.831));
+z-index:1;
 }
 
 .posts {
@@ -181,8 +182,8 @@ font-size: 14px;
 }
 
 .account a:nth-child(2) {
-    margin-left: 10px;
-    line-height: 16px;
+margin-left: 10px;
+line-height: 16px;
 }
 
 .top img {
@@ -458,7 +459,7 @@ margin-left:0;
 }
 
 .hfooter {
-    display:none;
+display:none;
 }
 
 .bottom-menu {
