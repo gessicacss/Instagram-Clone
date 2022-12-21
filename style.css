@@ -107,6 +107,7 @@ width: 66px;
 height: 66px;
 background-image: url(/assets/stories_background.jpg);
 background-size: contain;
+border-radius: 33px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -512,6 +513,11 @@ background: none;
 border: none;
 height: 80px;
 margin-bottom:20px;
+overflow-x:scroll;
+}
+
+.stories::-webkit-scrollbar {
+    display:none;
 }
 
 .post {
