@@ -342,6 +342,10 @@ align-items: center;
 justify-content: space-between;
 }
 
+.acc-info div {
+margin-left:16px;
+}
+
 a {
 text-decoration: none;
 color: inherit;
