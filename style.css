@@ -463,7 +463,7 @@ margin-left: 0;
 display: none;
 }
 
-@media (max-width: 934px) {
+@media (max-width: 935px) {
 .sidebar {
 display: none;
 }
@@ -472,7 +472,7 @@ padding: 0 20px;
 }
 }
 
-@media (max-width: 613px) {
+@media (max-width: 614px) {
 .menu,
 .menu div,
 main,
